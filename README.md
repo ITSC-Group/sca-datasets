@@ -6,9 +6,9 @@ If you find a new dataset, feel free to add it by creating a pull request.
 
 | Name | Traces | Features | Device | Algorithm | Countermeasures | Keys | Aquisition | Papers | URL |
 |---|---|---|---|---|---|---|---|---|---|
-| ASCAD v1 fixed key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | fixed | EM | https://link.springer.com/article/10.1007/s13389-019-00220-8 | see versions below |
-| ASCAD v1 variable key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | random | EM |https://link.springer.com/article/10.1007/s13389-019-00220-8 | https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key|
-| ASCAD v2 |  |  |  |  |  |  |  |  |
+| ASCAD v1 fixed key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | fixed | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | see versions below |
+| ASCAD v1 variable key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | random | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | [github](https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key) |
+| ASCAD v2 | 800000 | 1000000 | STM32 Cortex M4 | AES128 | 2nd order Boolean Masking and shuffling | random | Power | [preprint 2021/592](https://eprint.iacr.org/2021/592.pdf) | See versions below |
 | DPA v2 |  |  | SASEBO GII FPGA |  |  |  |  |  |
 | DPA v4.1 |  |  |  |  |  |  |  |  |
 | DPA v4.2 |  |  |  |  |  |  |  |  |
@@ -28,3 +28,5 @@ If you find a new dataset, feel free to add it by creating a pull request.
 |---|---|---|
 | ASCAD v1 fixed key | Official government release | https://www.data.gouv.fr/s/resources/ascad/20180530-163000/ASCAD_data.zip |
 | ASCAD v1 fixed key | Preprocessed 700 features |  https://github.com/ANSSI-FR/ASCAD/tree/master/ATMEGA_AES_v1/ATM_AES_v1_fixed_key |
+| ASCAD v2 | Official government release | https://files.data.gouv.fr/anssi/ascadv2/ |
+| ASCAD v2 | Preprocessed |  |
