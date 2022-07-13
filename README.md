@@ -14,7 +14,7 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | DPA v4.2 |  |  |  |  |  |  |  |  |
 | AES HD |  |  | SASEBO GII FPGA |  |  |  |  |  |
 | AES HD MM|  |  | SASEBO GII FPGA |  |  |  |  |  |
-| AES RD | 50000? | 3500 | 8-bit Atmel AVR | AES128 | Random delay interrupt | 1 fixed | Power | https://www.iacr.org/archive/ches2009/57470156/57470156.pdf | https://github.com/ikizhvatov/randomdelays-traces |
+| AES RD | 50000? | 3500 | 8-bit Atmel AVR | AES128 | Random delay interrupt | 1 fixed | Power | [CHES 2009](https://www.iacr.org/archive/ches2009/57470156/57470156.pdf) | [github](https://github.com/ikizhvatov/randomdelays-traces) |
 | AT128-N |  |  |  |  |  |  |  |  |
 | AT128-F |  |  |  |  |  |  |  |  |
 | CHES CTF 2018 |  |  |  |  |  |  |  |  |
