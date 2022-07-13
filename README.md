@@ -6,10 +6,11 @@ If you find a new dataset, feel free to add it by creating a pull request.
 
 | Name | Traces | Features | Device | Algorithm | Countermeasures | Keys | Aquisition | Papers | URL |
 |---|---|---|---|---|---|---|---|---|---|
-| ASCAD v1 fixed key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | fixed | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | see versions below |
-| ASCAD v1 variable key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | random | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | [github](https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key) |
-| ASCAD v2 | 800000 | 1000000 | STM32 Cortex M4 | AES128 | 2nd order Boolean Masking and shuffling | random | Power | [preprint 2021/592](https://eprint.iacr.org/2021/592.pdf) | See versions below |
-| DPA v2 |  |  | SASEBO GII FPGA |  |  |  |  |  |
+| ASCAD v1 fixed key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | Fixed | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | see versions below |
+| ASCAD v1 variable key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | Random | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | [github](https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key) |
+| ASCAD v2 | 800000 | 1000000 | STM32 Cortex M4 | AES128 | 2nd order Boolean Masking and shuffling | Random | Power | [preprint 2021/592](https://eprint.iacr.org/2021/592.pdf) | See versions below |
+| DPA v1 | 80000 | fixed
+| DPA v2 | 1000000/640000 |  | SASEBO GII FPGA | AES128 | None | Random in template, 32 fixed in test | Power |  | [website](https://www.dpacontest.org/v2/download.php) |
 | DPA v4.1 |  |  |  |  |  |  |  |  |
 | DPA v4.2 |  |  |  |  |  |  |  |  |
 | AES HD |  |  | SASEBO GII FPGA |  |  |  |  |  |
