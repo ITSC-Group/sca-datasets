@@ -6,15 +6,15 @@ If you find a new dataset, feel free to add it by creating a pull request.
 
 | Name | Traces | Features | Device | Algorithm | Countermeasures | Keys | Aquisition | Papers | URL |
 |---|---|---|---|---|---|---|---|---|---|
-| ASCAD v1 fixed key | 50 000 / 10 000 | 100 000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | fixed | EM | https://link.springer.com/article/10.1007/s13389-019-00220-8 | see versions below |
-| ASCAD v1 variable key | 50 000 / 10 000 | 100 000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | random | EM |https://link.springer.com/article/10.1007/s13389-019-00220-8 | https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key|
+| ASCAD v1 fixed key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | fixed | EM | https://link.springer.com/article/10.1007/s13389-019-00220-8 | see versions below |
+| ASCAD v1 variable key | 50000 / 10000 | 100000? | ATMEGA8515 | AES128 | 1st order XOR Boolean Masking | random | EM |https://link.springer.com/article/10.1007/s13389-019-00220-8 | https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key|
 | ASCAD v2 |  |  |  |  |  |  |  |  |
 | DPA v2 |  |  | SASEBO GII FPGA |  |  |  |  |  |
 | DPA v4.1 |  |  |  |  |  |  |  |  |
 | DPA v4.2 |  |  |  |  |  |  |  |  |
 | AES HD |  |  | SASEBO GII FPGA |  |  |  |  |  |
 | AES HD MM|  |  | SASEBO GII FPGA |  |  |  |  |  |
-| AES RD | 50 000? | 3500 | 8-bit Atmel AVR | AES128 | Random delay interrupt | 1 fixed | Power | https://www.iacr.org/archive/ches2009/57470156/57470156.pdf | https://github.com/ikizhvatov/randomdelays-traces |
+| AES RD | 50000? | 3500 | 8-bit Atmel AVR | AES128 | Random delay interrupt | 1 fixed | Power | https://www.iacr.org/archive/ches2009/57470156/57470156.pdf | https://github.com/ikizhvatov/randomdelays-traces |
 | AT128-N |  |  |  |  |  |  |  |  |
 | AT128-F |  |  |  |  |  |  |  |  |
 | CHES CTF 2018 |  |  |  |  |  |  |  |  |
