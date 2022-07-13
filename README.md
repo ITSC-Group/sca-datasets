@@ -26,5 +26,5 @@ If you find a new dataset, feel free to add it by creating a pull request.
 ## Versions
 | Main dataset | Version | URL |
 |---|---|---|
-| ASCAD v1 fixed key | Official government release | TBD |
+| ASCAD v1 fixed key | Official government release | https://www.data.gouv.fr/s/resources/ascad/20180530-163000/ASCAD_data.zip |
 | ASCAD v1 fixed key | Preprocessed 700 features |  https://github.com/ANSSI-FR/ASCAD/tree/master/ATMEGA_AES_v1/ATM_AES_v1_fixed_key |
