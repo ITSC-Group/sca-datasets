@@ -19,8 +19,8 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | AT128-N |  |  |  |  |  |  |  |  |
 | AT128-F |  |  |  |  |  |  |  |  |
 | CHES CTF 2018 AES | 4x10000 / 2x1000 |  | STM32 | AES-128 |  | Fixed |  |  | See versions below |
-| CHES CTF 2018 DSA |  |  |  |  | Fixed |  |  |  |
-| CHES CTF 2018 RSA |  |  |  |  | Fixed |  |  |  |
+| CHES CTF 2018 DSA |  |  |  |  | DSA | Fixed |  |  |  |
+| CHES CTF 2018 RSA |  |  |  |  | RSA | Fixed |  |  |  |
 | WolfSSL Ed25519 |  |  |  |  |  |  |  |  |
 | μNaCl Curve 25519 |  |  |  |  |  |  |  |  |
 | Curve25519 CSWAP |  |  |  |  |  |  |  |  |
