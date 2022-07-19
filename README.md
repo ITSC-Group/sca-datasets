@@ -38,7 +38,7 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | DPA contest v1 | Attacking the SecmatV1 SoC in ASIC, used for the contest |  |
 | DPA contest v1 | Attacking the SecmatV3 SoC in ASIC |  |
 | DPA contest v1 | Attacking the SecmatV3 SoC in FPGA (Altera Stratix) |  |
-| CHES CTF 2018 AES | Official CTF files requiring google login | https://chesctf.riscure.com/2018/content?show=training |
+| CHES CTF 2018 AES | Official CTF files with 42000 traces requiring google login | https://chesctf.riscure.com/2018/content?show=training |
 | CHES CTF 2018 AES | Preprocessing scripts for neural networks | https://github.com/agohr/ches2018 |
-| CHES CTF 2018 AES | AISYLabs version |  |
+| CHES CTF 2018 AES | AISYLabs version with a different subset of 45000 traces from the full 500000 trace private dataset, used in [preprint 2021/357](https://eprint.iacr.org/2021/357.pdf)| http://aisylabdatasets.ewi.tudelft.nl/ches_ctf.h5 |
 
