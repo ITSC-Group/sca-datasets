@@ -18,9 +18,9 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | AES RD | 50000? | 3500 | 8-bit Atmel AVR | AES-128 | Random delay interrupt | 1 fixed | Power | [CHES 2009](https://www.iacr.org/archive/ches2009/57470156/57470156.pdf) | [github](https://github.com/ikizhvatov/randomdelays-traces) |
 | AT128-N |  |  |  |  |  |  |  |  |
 | AT128-F |  |  |  |  |  |  |  |  |
-| CHES CTF 2018 AES | 4x10000 / 2x1000 |  | STM32 | AES-128 |  | Fixed |  |  | See versions below |
-| CHES CTF 2018 DSA |  |  |  |  | DSA | Fixed |  |  |  |
-| CHES CTF 2018 RSA |  |  |  |  | RSA | Fixed |  |  |  |
+| CHES CTF 2018 AES | 4x10000 / 2x1000 |  | STM32 | AES-128 | 1st order XOR Boolean Masking | Fixed and Random | Power |  | See versions below |
+| CHES CTF 2018 DSA |  |  |  | DSA | | Fixed |  |  |  |
+| CHES CTF 2018 RSA |  |  |  | RSA |  | Fixed |  |  |  |
 | WolfSSL Ed25519 |  |  |  |  |  |  |  |  |
 | μNaCl Curve 25519 |  |  |  |  |  |  |  |  |
 | Curve25519 CSWAP |  |  |  |  |  |  |  |  |
