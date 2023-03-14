@@ -9,7 +9,7 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | ASCAD v1 fixed key | 50000 / 10000 | 100000? / 700 | ATMEGA8515 | AES-128 | 1st order XOR Boolean Masking | Fixed | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | see versions below |
 | ASCAD v1 variable key | 200000 / 100000 | 100000? / 1400 | ATMEGA8515 | AES-128 | 1st order XOR Boolean Masking | Random | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | [github](https://github.com/ANSSI-FR/ASCAD/tree/410b92bab3bc69502b43c5cc9ccdec74794870be/ATMEGA_AES_v1/ATM_AES_v1_variable_key) |
 | ASCAD v2 | 800000 | 1000000 | STM32 Cortex M4 | AES-128 | 2nd order Boolean Masking and shuffling | Random | Power | [preprint 2021/592](https://eprint.iacr.org/2021/592.pdf) | See versions below |
-| DPA v1 | 80000 |  |  | DES |  | Fixed |  |  | See versions below|
+| DPA v1 | 81089 |  |  | DES |  | Fixed |  |  | See versions below|
 | DPA v2 | 1000000/640000 |  | SASEBO GII FPGA | AES-128 | None | Random in template, 32 fixed in test | Power |  | [website](https://www.dpacontest.org/v2/download.php) |
 | DPA v4.1 | 200000 |  | ATMega-163 | AES-128 |  | Fixed | Power |  | See versions below |
 | DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  | [website](https://www.dpacontest.org/v4/42_traces.php) |
@@ -43,9 +43,9 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | AES HD | Zaid preprocessed 1250 features  | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/blob/master/AES_HD/AES_HD_dataset.zip |
 | AES RD | Original release | https://github.com/ikizhvatov/randomdelays-traces |
 | AES RD | Zaid preprocessed 3500 features | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/tree/master/AES_RD/AES_RD_dataset |
-| DPA contest v1 | Attacking the SecmatV1 SoC in ASIC, used for the contest |  |
-| DPA contest v1 | Attacking the SecmatV3 SoC in ASIC |  |
-| DPA contest v1 | Attacking the SecmatV3 SoC in FPGA (Altera Stratix) |  |
+| DPA contest v1 | Attacking the SecmatV1 SoC in ASIC, used for the contest | https://cloud.telecom-paris.fr/s/8KWK5PnApP4DNy7  |
+| DPA contest v1 | Attacking the SecmatV3 SoC in ASIC, 81569 traces | https://cloud.telecom-paris.fr/s/js8bcrAnZc4rLQb |
+| DPA contest v1 | Attacking the SecmatV3 SoC in FPGA (Altera Stratix), 67753 traces | https://cloud.telecom-paris.fr/s/qjDtWRHy4WEDBcm |
 | DPA contest v4.1 | Official contest release | https://www.dpacontest.org/v4/rsm_traces.php | 
 | DPA contest v4.1 | Zaid preprocessed 4000 features | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/blob/master/DPA-contest%20v4/DPAv4_dataset.zip | 
 | CHES CTF 2018 AES | Official CTF files with 42000 traces requiring google login | https://chesctf.riscure.com/2018/content?show=training |
