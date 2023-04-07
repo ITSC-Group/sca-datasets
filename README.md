@@ -12,7 +12,7 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | DPA v1 | 81089 |  |  | DES |  | Fixed |  |  | See versions below|
 | DPA v2 | 1000000/640000 |  | SASEBO GII FPGA | AES-128 | None | Random in template, 32 fixed in test | Power |  | [website](https://www.dpacontest.org/v2/download.php) |
 | DPA v4.1 | 200000 |  | ATMega-163 | AES-128 |  | Fixed | Power |  | See versions below |
-| DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  | [website](https://www.dpacontest.org/v4/42_traces.php) |
+| DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  |  | [website](https://www.dpacontest.org/v4/42_traces.php) |
 | AES HD | 500000 | 1250 |  Xilinx Virtex-5 FPGA on SASEBO GII | AES-128 | None | 1 fixed | EM probe on power line | [CHES 2018](https://tches.iacr.org/index.php/TCHES/article/view/7339) | See versions below |
 | AES HD MM aka TeSCASE | 5600000 | 3125 | SASEBO GII FPGA | AES-128 |  | 1 fixed |  | [website](https://chest.coe.neu.edu/?current_page=POWER_TRACE_LINK&software=ptmasked) |
 | AES RD | 25000 / 25000 | 3500 | 8-bit Atmel AVR | AES-128 | Random delay interrupt | 1 fixed | Power | [CHES 2009](https://www.iacr.org/archive/ches2009/57470156/57470156.pdf) | See versions below |
