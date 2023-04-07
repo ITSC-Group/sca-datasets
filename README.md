@@ -11,8 +11,8 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | ASCAD v2 | 810000 | 1000000 | STM32 Cortex M4 | AES-128 | 2nd order Boolean Masking and shuffling | Random | Power | [preprint 2021/592](https://eprint.iacr.org/2021/592.pdf) | See versions below |
 | DPA v1 | 81089 |  |  | DES |  | Fixed |  |  | See versions below|
 | DPA v2 | 1000000/640000 |  | SASEBO GII FPGA | AES-128 | None | Random in template, 32 fixed in test | Power |  | [website](https://www.dpacontest.org/v2/download.php) |
-| DPA v4.1 | 200000 |  | ATMega-163 | AES-128 |  | Fixed | Power |  | See versions below |
-| DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  |  | [website](https://www.dpacontest.org/v4/42_traces.php) |
+| DPA v4.1 | 200000 |  | ATMega-163 | AES-128 |  | Fixed | Power |  | [website](https://www.dpacontest.org/v4/rsm_traces.php) |
+| DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  |  | See versions below |
 | AES HD | 500000 | 1250 |  Xilinx Virtex-5 FPGA on SASEBO GII | AES-128 | None | 1 fixed | EM probe on power line | [CHES 2018](https://tches.iacr.org/index.php/TCHES/article/view/7339) | See versions below |
 | AES HD MM aka TeSCASE | 5600000 | 3125 | SASEBO GII FPGA | AES-128 |  | 1 fixed |  | [website](https://chest.coe.neu.edu/?current_page=POWER_TRACE_LINK&software=ptmasked) |
 | AES RD | 25000 / 25000 | 3500 | 8-bit Atmel AVR | AES-128 | Random delay interrupt | 1 fixed | Power | [CHES 2009](https://www.iacr.org/archive/ches2009/57470156/57470156.pdf) | See versions below |
@@ -47,8 +47,8 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | DPA contest v1 | Attacking the SecmatV1 SoC in ASIC, used for the contest | https://cloud.telecom-paris.fr/s/8KWK5PnApP4DNy7  |
 | DPA contest v1 | Attacking the SecmatV3 SoC in ASIC, 81569 traces | https://cloud.telecom-paris.fr/s/js8bcrAnZc4rLQb |
 | DPA contest v1 | Attacking the SecmatV3 SoC in FPGA (Altera Stratix), 67753 traces | https://cloud.telecom-paris.fr/s/qjDtWRHy4WEDBcm |
-| DPA contest v4.1 | Official contest release | https://www.dpacontest.org/v4/rsm_traces.php | 
-| DPA contest v4.1 | Zaid preprocessed 4000 features | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/blob/master/DPA-contest%20v4/DPAv4_dataset.zip | 
+| DPA contest v4.2 | Official contest release | https://www.dpacontest.org/v4/42_traces.php | 
+| DPA contest v4.2 | Zaid preprocessed 4000 features | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/blob/master/DPA-contest%20v4/DPAv4_dataset.zip | 
 | CHES CTF 2018 AES | Official CTF files with 42000 traces requiring google login | https://chesctf.riscure.com/2018/content?show=training |
 | CHES CTF 2018 AES | Private full dataset with 500000 traces | not available |
 | CHES CTF 2018 AES | Preprocessing scripts for neural networks | https://github.com/agohr/ches2018 |
