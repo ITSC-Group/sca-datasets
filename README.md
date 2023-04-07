@@ -14,7 +14,7 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | DPA v4.1 | 200000 |  | ATMega-163 | AES-128 |  | Fixed | Power |  | See versions below |
 | DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  | [website](https://www.dpacontest.org/v4/42_traces.php) |
 | AES HD | 500000 | 1250 |  Xilinx Virtex-5 FPGA on SASEBO GII | AES-128 | None | 1 fixed | EM probe on power line | [CHES 2018](https://tches.iacr.org/index.php/TCHES/article/view/7339) | See versions below |
-| AES HD MM|  |  | SASEBO GII FPGA |  |  |  |  |  |
+| AES HD MM aka TeSCASE | 5600000 | 3125 | SASEBO GII FPGA | AES-128 |  | 1 fixed |  | [website](https://chest.coe.neu.edu/?current_page=POWER_TRACE_LINK&software=ptmasked) |
 | AES RD | 25000 / 25000 | 3500 | 8-bit Atmel AVR | AES-128 | Random delay interrupt | 1 fixed | Power | [CHES 2009](https://www.iacr.org/archive/ches2009/57470156/57470156.pdf) | See versions below |
 | AT128-N |  |  |  |  |  |  |  |  |
 | AT128-F |  |  |  |  |  |  |  |  |
@@ -40,6 +40,7 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | ASCAD v2 | Official government release | https://files.data.gouv.fr/anssi/ascadv2/ |
 | ASCAD v2 | Preprocessed 15000 features | https://files.data.gouv.fr/anssi/ascadv2/ascadv2-extracted.h5 |
 | AES HD | Original release 500000 traces | http://aisylabdatasets.ewi.tudelft.nl/aes_hd.h5 |
+| AES HD | AISyLab AES_HD_Ext | https://github.com/AISyLab/AES_HD_Ext |
 | AES HD | Zaid preprocessed 50000 / 25000 traces | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/blob/master/AES_HD/AES_HD_dataset.zip |
 | AES RD | Original release | https://github.com/ikizhvatov/randomdelays-traces |
 | AES RD | Zaid preprocessed 3500 features | https://github.com/gabzai/Methodology-for-efficient-CNN-architectures-in-SCA/tree/master/AES_RD/AES_RD_dataset |
