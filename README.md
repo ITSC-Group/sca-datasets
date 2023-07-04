@@ -10,14 +10,14 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | ASCAD v1 variable key | 200000 / 100000 | 250000 / 1400 | ATMEGA8515 | AES-128 | 1st order XOR Boolean Masking | Random | EM | [JOC 2020](https://doi.org/10.1007/s13389-019-00220-8) | See versions below |
 | ASCAD v2 | 810000 | 1000000 | STM32 Cortex M4 | AES-128 | 2nd order Boolean Masking and shuffling | Random | Power | [preprint 2021/592](https://eprint.iacr.org/2021/592.pdf) | See versions below |
 | DPA v1 | 81089 |  |  | DES |  | Fixed |  |  | See versions below|
-| DPA v2 | 1000000/640000 |  | SASEBO GII FPGA | AES-128 | None | Random in template, 32 fixed in test | Power |  | [website](https://www.dpacontest.org/v2/download.php) |
+| DPA v2 | 1000000 / 640000 |  | SASEBO GII FPGA | AES-128 | None | Random in template, 32 fixed in test | Power |  | [website](https://www.dpacontest.org/v2/download.php) |
 | DPA v4.1 | 200000 |  | ATMega-163 | AES-128 |  | Fixed | Power |  | [website](https://www.dpacontest.org/v4/rsm_traces.php) |
 | DPA v4.2 | 80000 |  | ATMega-163 | AES-128 |  | 16 fixed | Power |  |  | See versions below |
 | AES HD | 500000 | 1250 |  Xilinx Virtex-5 FPGA on SASEBO GII | AES-128 | None | 1 fixed | EM probe on power line | [CHES 2018](https://tches.iacr.org/index.php/TCHES/article/view/7339) | See versions below |
 | AES HD MM aka TeSCASE | 5600000 | 3125 | SASEBO GII FPGA | AES-128 |  | 1 fixed |  | [website](https://chest.coe.neu.edu/?current_page=POWER_TRACE_LINK&software=ptmasked) |
 | AES RD | 25000 / 25000 | 3500 | 8-bit Atmel AVR | AES-128 | Random delay interrupt | 1 fixed | Power | [CHES 2009](https://www.iacr.org/archive/ches2009/57470156/57470156.pdf) | See versions below |
-| AT128-N |  |  |  |  |  |  |  |  |
-| AT128-F |  |  |  |  |  |  |  |  |
+| AT128-N | 200000 | 47000 | ATmega128A | AES-128 | optional Random delay |  | Power | [CHES 2021](https://tches.iacr.org/index.php/TCHES/article/view/8974) | [Github Repository](https://github.com/lxj-sjtu/TCHES2021_Pay_attention_to_the_raw_traces) |
+| AT128-F | 200000 | 47000 |  ATmega128A | AES-128 | optional Random delay |  | Power | [CHES 2021](https://tches.iacr.org/index.php/TCHES/article/view/8974) | [Github Repository](https://github.com/lxj-sjtu/TCHES2021_Pay_attention_to_the_raw_traces) |
 | CHES CTF 2018 AES | 4x10000 / 2x1000 | ? / 2200 | STM32 | AES-128 | 1st order XOR Boolean Masking | Fixed and Random |  |  | See versions below |
 | CHES CTF 2018 DSA |  |  |  | DSA | | Fixed |  |  |  |
 | CHES CTF 2018 RSA |  |  |  | RSA |  | Fixed |  |  |  |
