@@ -19,12 +19,12 @@ If you find a new dataset, feel free to add it by creating a pull request.
 | AT128-N | 200000 | 47000 | ATmega128A | AES-128 | optional Random delay |  | Power | [CHES 2021](https://tches.iacr.org/index.php/TCHES/article/view/8974) | [Github Repository](https://github.com/lxj-sjtu/TCHES2021_Pay_attention_to_the_raw_traces) |
 | AT128-F | 200000 | 47000 |  ATmega128A | AES-128 | optional Random delay |  | Power | [CHES 2021](https://tches.iacr.org/index.php/TCHES/article/view/8974) | [Github Repository](https://github.com/lxj-sjtu/TCHES2021_Pay_attention_to_the_raw_traces) |
 | CHES CTF 2018 AES | 4x10000 / 2x1000 | ? / 2200 | STM32 | AES-128 | 1st order XOR Boolean Masking | Fixed and Random |  |  | See versions below |
-| CHES CTF 2018 DSA |  |  |  | DSA | | Fixed |  |  |  |
-| CHES CTF 2018 RSA |  |  |  | RSA |  | Fixed |  |  |  |
-| WolfSSL Ed25519 |  |  |  |  |  |  |  |  |
-| μNaCl Curve 25519 |  |  |  |  |  |  |  |  |
-| Curve25519 CSWAP |  |  |  |  |  |  |  |  |
-| Curve25519 CSPOINTER |  |  |  |  |  |  |  |  |
+| CHES CTF 2018 DSA |  |  |  | DSA | | Fixed |  |  | [website](https://chesctf.riscure.com/2018/content?show=training) |
+| CHES CTF 2018 RSA |  |  |  | RSA |  | Fixed |  |  | [website](https://chesctf.riscure.com/2018/content?show=training) |
+| WolfSSL Ed25519 | 6400 | 1000 | STM32F4 on Piñata board | Curve25519 EdDSA |  |  | Power |  [preprint 2019/358](https://eprint.iacr.org/2019/358), [2020 OA journal paper](https://link.springer.com/article/10.1007/s41635-020-00106-w) | [Github repository](https://github.com/leoweissbart/MachineLearningBasedSideChannelAttackonEdDSA) | 
+| Reassure Curve25519 | 5997 |  | μNaCl, ATmega328P, Chipwhisperer | Curve25519 |  | arithmetic-based conditional swap, projective coordinate re-randomization, scalar randomization | EM | [preprint 2016/923](https://eprint.iacr.org/2016/923.pdf), [2020 OA journal paper](https://link.springer.com/article/10.1007/s41635-020-00106-w)  | [website](https://zenodo.org/record/3609789) |
+| Curve25519 CSWAP-arith | 76500 | 8000 | μNaCl, STM32F4 | Curve25519 | arithmetic-based conditional swap, projective coordinate re-randomization, scalar randomization |  | EM | [preprint 2017/1204](https://eprint.iacr.org/2017/1204.pdf) |  |
+| Curve25519 CSWAP-pointer | 76500 | 1000 | μNaCl, STM32F4 | Curve25519 | pointer-based conditional swap, projective coordinate re-randomization, scalar randomization |  | EM | [preprint 2017/1204](https://eprint.iacr.org/22017/1204.pdf) |  |
 | CHES Challenge 2020 fixed key |  |  | software | Clyde-128 | different ISW masking methods | Fixed | Power | [preprint 2022/471](https://eprint.iacr.org/2022/471.pdf) |  |
 | CHES Challenge 2020 variable key |  |  | software | Clyde-128 | different ISW masking methods | Random | Power | [preprint 2022/471](https://eprint.iacr.org/2022/471.pdf) |  |
 
